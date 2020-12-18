@@ -1,0 +1,63 @@
+body{ 
+    text-align: center;
+    background:lightslategrey
+  
+  
+  
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+      
+}
+.square{ 
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 1px solid gray;
+    display: inline-block;
+  
+}
+.o{
+ /* posiciona o elemento no centro da div */
+  position: relative;
+}
+
+.o::after{
+    /* baixar emoji https://emojipedia.org/flexed-biceps/ */
+    content: "\1F530";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+  position: relative;
+}
+
+.x::after{
+     /* baixar emoji https://emojipedia.org/flexed-biceps/ */
+    content: "\1F4AA";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn{
+    background-color: mediumspringgreen;
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+}
